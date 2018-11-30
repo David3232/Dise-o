@@ -1,0 +1,53 @@
+header {
+  height: 300px;
+}
+
+footer {
+  background-color: #113AB2;
+  color: white;
+  padding: 1em;
+  float: left;
+  width: 100%
+}
+
+footer p {
+  float: left;
+}
+
+
+nav ul {
+  background-color: #113AB2;
+  float: left;
+  list-style-type: none;
+  padding-inline-start: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+nav li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em 1em;
+}
+
+nav li a:hover {
+  background-color: #FFC52F;
+}
+
+.imgLogo {
+  height: 250px;
+  width: 100%;
+}
+
+.imgSocialNetwork {
+  width: 50px;
+  float: right;
+}
