@@ -1,25 +1,30 @@
+body {
+  background-color: #4978FF /*#113AB2 #4978FF #2F65FF #FFC52F #B28100*/;
+}
+
 header {
   height: 300px;
 }
 
+
 footer {
   background-color: #113AB2;
   color: white;
-  padding: 1em;
   float: left;
-  width: 100%
+  width: 100%;
+  clear: both;
 }
 
-footer p {
+footer ul {
   float: left;
+  padding-left: 0.3em;
+  list-style-type: none;
 }
-
 
 nav ul {
   background-color: #113AB2;
   float: left;
   list-style-type: none;
-  padding-inline-start: 0;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -48,6 +53,8 @@ nav li a:hover {
 }
 
 .imgSocialNetwork {
-  width: 50px;
   float: right;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  width: 50px;
 }

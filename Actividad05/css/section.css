@@ -1,0 +1,10 @@
+article img {
+  width: 200px;
+  height: 200px;
+}
+
+article {
+  float: left;
+  text-align: center;
+  margin: 1em;
+}
